@@ -260,10 +260,9 @@
 
     /* ── Interests ──────────────────────────────────────────── */
     .chips { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
-    .chip { display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--stroke-strong); background: var(--card); font-weight: 600; font-size: 14.5px; transition: transform .3s cubic-bezier(.3, 1.6, .5, 1), border-color .3s; animation: float 4s ease-in-out infinite; animation-delay: var(--fd, 0s); }
+    .chip { display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--stroke-strong); background: var(--card); font-weight: 600; font-size: 14.5px; transition: transform .3s cubic-bezier(.3, 1.6, .5, 1), border-color .3s; }
     .chip:hover { transform: translateY(-4px) scale(1.04); border-color: var(--a2); }
     .chip svg { width: 18px; height: 18px; color: var(--a2); }
-    @keyframes float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -5px; } }
     blockquote { max-width: 700px; margin: 34px auto 0; text-align: center; font-style: italic; color: var(--muted); font-size: 17px; }
 
     /* ── Contact ────────────────────────────────────────────── */
@@ -432,12 +431,12 @@
     <section id="beyond" class="wrap">
       <div class="head reveal"><div><div class="eyebrow grad">08 /</div><h2>Beyond the Code</h2></div><p>What keeps me sharp</p></div>
       <div class="chips reveal">
-        <span class="chip" style="--fd:0s"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 3h6l-1 3h2v2h-2l1 6h-6l1-6H8V6h2L9 3zm-3 15h12v3H6z"/></svg>Chess &amp; Strategy</span>
-        <span class="chip" style="--fd:.5s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h10M4 18h6"/></svg>Algorithms</span>
-        <span class="chip" style="--fd:1s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>Problem-Solving</span>
-        <span class="chip" style="--fd:1.5s"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m3 20 6-10 4 6 3-4 5 8z"/></svg>Hiking</span>
-        <span class="chip" style="--fd:2s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h2l3 11.5M5.5 17.5 9 9h7l-4.5 8.5M9 9 8 6H6"/></svg>Cycling</span>
-        <span class="chip" style="--fd:2.5s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h7a3 3 0 0 1 3 3v14a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v14a2 2 0 0 1 2-2h8z"/></svg>Lifelong Learning</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 3h6l-1 3h2v2h-2l1 6h-6l1-6H8V6h2L9 3zm-3 15h12v3H6z"/></svg>Chess &amp; Strategy</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h10M4 18h6"/></svg>Algorithms</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>Problem-Solving</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m3 20 6-10 4 6 3-4 5 8z"/></svg>Hiking</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h2l3 11.5M5.5 17.5 9 9h7l-4.5 8.5M9 9 8 6H6"/></svg>Cycling</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h7a3 3 0 0 1 3 3v14a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v14a2 2 0 0 1 2-2h8z"/></svg>Lifelong Learning</span>
       </div>
       <blockquote class="reveal" style="--d:.2s">“Whether it is a chessboard, an algorithm, a mountain trail, or a complex system — I enjoy understanding the terrain and finding the smartest path forward.”</blockquote>
     </section>
